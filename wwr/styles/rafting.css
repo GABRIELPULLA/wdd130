@@ -67,7 +67,7 @@ article {
 
 .hero article {
     position: absolute;
-    bottom: 30px;
+    bottom: 5px;
     left: 20px;
     right: 20px;
     background-color: var(--accent2-color);
@@ -93,7 +93,7 @@ article {
 }
 
 section h2 {
-    background-color: var(--accent1-color);
+    background-color: var(--secondary-color);
     color: white;
     text-align: center;
     padding: 12px;
