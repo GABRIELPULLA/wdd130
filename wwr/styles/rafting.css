@@ -143,6 +143,8 @@ nav {
 .adventures figure {
     width: 150px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .adventures img {
