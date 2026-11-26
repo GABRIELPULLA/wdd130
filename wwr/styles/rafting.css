@@ -163,3 +163,97 @@ footer {
     justify-content: space-between;
     align-items: center;
 }
+
+.employee-profiles {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.employees h2 {
+    background-color: transparent;
+    color: black;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.employees figure {
+    text-align: center;
+    width: 200px;
+}
+
+.employees img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.contact-form form {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    gap: 1rem;
+    align-items: center;
+}
+
+.contact-form label {
+    text-align: right;
+    font-weight: bold;
+}
+
+.map {
+    text-align: center;
+}
+
+.map iframe {
+    width: 100%;
+    max-width: 800px;
+}
+
+.radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.contact-form button {
+    width: 220px;
+    justify-self: center;
+    grid-column: 1 / 3;
+}
+
+.contact-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: start;
+}
+
+.radio-group label {
+    text-align: left;
+}
+
+.newsletter {
+    grid-column: 1 / 3;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+.newsletter label {
+    text-align: left;
+    font-weight: normal;
+}
+
+.contact-form {
+    background-color: #f8f8f8;
+    padding: 1rem;
+    border-radius: 8px;
+}
