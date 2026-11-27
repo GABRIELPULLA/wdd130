@@ -207,6 +207,7 @@ footer {
 .map iframe {
     width: 100%;
     max-width: 800px;
+    border: 0;
 }
 
 .radio-group {
